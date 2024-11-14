@@ -1,0 +1,407 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* common  */
+body{
+    padding-top: 88px;
+}
+.c_pt{
+    padding-top: 50px;
+}
+.c_pb{
+    padding-bottom: 50px;
+}
+.title_pb{
+    padding-bottom: 30px;
+    }
+.com_title h2 {
+     font-size: 25px;
+}
+.underline {
+    margin: 10px 8px 0;
+}    
+.sub_title p {
+    font-size: 16px;
+}
+/* common  */
+/* header start  */
+header{
+    padding: 10px 0;
+}
+.menu ul li a {
+    padding: 10px 0 0 !important;
+    font-size: 20px;
+    text-align: right;
+}
+/* hero section start  */
+.hero_img_wrap {
+    width: 100%;
+    min-height: 0;
+    margin: 0px 0px 50px 0px;
+}
+.hero_img img {
+    margin: 4px;
+}
+.hero_wrap_2{
+    display: none;
+}
+.hero_right {
+    padding: 40px 0 40px 0;
+}
+.hero_text{
+    text-align: center;
+}
+.hero_right h1 {
+    font-size: 45px;
+    line-height: 60px;
+}
+.hero_right h2 {
+    font-size: 25px;
+    line-height: 35px;
+}
+.common_btn {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.c_btn a {
+    font-size: 16px;
+    width: 150px;
+    padding: 8px 20px;
+}
+/* hero section end */ 
+/* about section setart  */
+.about_left {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+.about_img_wrap {
+    margin: 30px 0px 0px 60px;
+}
+.address .li_left {
+    font-size: 14px;
+}
+.address .li_right {
+    font-size: 14px;
+    text-align: left;
+}
+/* about section end */
+/* footer start  */
+.footer_text h3 {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 40px 0 12px;
+    letter-spacing: 1px;
+}
+.footer_text p {
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+.footer_text p span i {
+    font-size: 10px;
+}
+ .devider {
+    margin-top: 20px;
+}
+.copy p {
+    font-size: 11px;
+}
+/* footer end */
+ }
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* common  */
+.logo a p{
+    font-size: 20px;
+    }
+.c_pt{
+    padding-top: 60px;
+}
+.c_pb{
+    padding-bottom: 60px;
+}
+.title_pb{
+    padding-bottom: 30px;
+    }
+.com_title h2 {
+    font-size: 30px;
+}
+.underline {
+    margin: 15px 10px 0;
+}
+/* common  */
+/* about section setart  */
+.about_left {
+    display: flex;
+    justify-content: center;
+    padding-left: 110px;
+}
+.about_img_wrap {
+    margin: 40px 0px 0px 90px;
+}
+.address .li_left {
+    font-size: 16px;
+}
+.address .li_right {
+    font-size: 16px;
+}
+/* about section end */
+/* hero section start  */
+.hero_img_wrap {
+    width: 100%;
+    margin: 0px 0px 60px 0px;
+}
+.hero_img img {
+    margin: 4px;
+}
+.hero_wrap_2{
+    display: none;
+    min-height: 320px;
+    top: 130px;
+    left: 46px;
+}
+.hero_right {
+    padding: 60px 0 60px 0;
+}
+.hero_text{
+    text-align: center;
+}
+.hero_right h1 {
+    font-size: 60px;
+    line-height: 80px;
+}
+.hero_right h2 {
+    font-size: 40px;
+    line-height: 70px;
+}
+.common_btn {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.c_btn a {
+    font-size: 18px;
+    width: 180px;
+    padding: 10px 20px;
+}
+/* hero section end */ 
+/* header start  */
+.menu ul li a {
+    padding: 10px 0 0 !important;
+    font-size: 20px;
+    text-align: right;
+}
+.nav-li
+/* header end */
+/* slider start  */
+.slider{
+    padding-bottom: 60px;
+}
+.c_ind{
+    bottom: -55px;
+}
+.c_ind [data-bs-target] {
+    width: 13px;
+    height: 13px;
+}
+.s_text{
+    margin-top: 0px;
+}
+.s_text h1{
+    font-size: 25px;
+}
+.s_text h2{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.s_text p{
+    margin-bottom: 20px;
+    color: #555555;
+}
+.s_icon ul li{
+    margin-right: 20px;
+}
+.s_icon ul li i{
+    font-size: 35px;    
+}
+/* feature start  */
+.c_h1{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.c_p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.f_item{
+    margin-top: 30px;
+}
+.f_icon{
+    margin-top: 0px;
+    font-size: 35px;
+}
+.f_text{
+    text-align: center;
+}
+.f_text h2{
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.f_text p{
+    letter-spacing: 0px;
+}
+/* feature end */
+/* contact start  */
+.c_form{
+    margin-top: 35px; 
+    margin-bottom: 40px;
+}
+.c_input{
+    height: 45px;
+    padding: 10px 10px;
+}
+.c_submit{
+    height: 45px;
+}
+.c_icon li{
+    margin-right: 25px !important;
+
+}
+.c_icon li i{
+    font-size: 40px;
+}
+/* contact end */
+/* footer start  */
+.footer_text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 40px 0 12px;
+}
+ .devider {
+    margin-top: 30px;
+}
+.copy p {
+    font-size: 12px;
+}
+/* footer end */
+ }
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* header start  */
+/* common  */
+.c_pt{
+    padding-top: 70px;
+}
+.c_pb{
+    padding-bottom: 70px;
+}
+.com_title h2 {
+    font-size: 30px;
+}
+.underline {
+    margin: 15px 10px 0;
+}
+/* common  */
+.menu ul li a {
+    padding: 10px 0 0 !important;
+    text-align: right;
+}
+.f_item{
+    margin-top: 50px;
+}
+/* header end */
+/* hero section start  */
+.hero_img_wrap {
+    width: 100%;
+    margin: 0px 0px 70px 0px;
+}
+.hero_img img {
+    border-radius: 10px;
+    margin: 49px;
+}
+.hero_wrap_2{
+    display: none;
+    min-height: 320px;
+    top: 130px;
+    left: 46px;
+}
+.hero_right {
+    padding: 70px 0 70px 0;
+}
+.hero_text{
+    text-align: center;
+}
+.common_btn {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.c_btn a {
+    font-size: 20px;
+}
+/* hero section end */
+/* about section setart  */
+.about_left {
+    display: flex;
+    justify-content: center;
+    padding-left: 170px;
+}
+.about_img_wrap {
+    margin: 60px 0px 0px 90px;
+}
+/* about section end */
+/* contact sestion start  */
+.c_form{
+    margin-top: 65px;
+    margin-bottom: 70px;
+}
+/* contact sestion end */
+/* footer start  */
+.footer_text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 40px 0 12px;
+}
+ .devider {
+    margin-top: 30px;
+}
+/* footer end */
+ }
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* common start  */
+    .c_pt{
+        padding-top: 90px;
+    }
+    .c_pb{
+        padding-bottom: 90px;
+    }
+    /* common end */
+/* hero section start  */
+.hero_img_wrap {
+    width: 350px;
+    min-height: 350px;
+    margin: 90px 0px 110px 0px;
+}
+.hero_wrap_2{
+    min-height: 400px;
+    top: 130px;
+    right: 40px;
+}
+.hero_right {
+    padding: 110px 0 100px 0;
+}
+.hero_right h2 {
+    font-size: 45px;
+    line-height: 75px;
+}
+/* hero section end */
+ }
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+}
+ /* Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) { 
+    
+
+}

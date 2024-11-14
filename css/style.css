@@ -1,0 +1,344 @@
+@font-face {
+    src: url(../fonts/pt_sans/ptsans-bold.ttf);
+    font-family: ptsans-bold;
+}
+@font-face {
+    src: url(../fonts/pt_sans/ptsans-regular.ttf);
+    font-family: ptsans-regular;
+}
+/* common start  */
+body{
+    font-family: ptsans-regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+    padding-top: 109px;
+}
+.c_pt{
+    padding-top: 100px;
+}
+.c_pb{
+    padding-bottom: 100px;
+}
+/* title  */
+.title_pb{
+padding-bottom: 60px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.underline{
+    width: 50px;
+    height: 10px;
+    background-color: #FF8000;
+    margin: 20px 10px 0;
+    border-radius: 30px;
+}
+.com_title h2{
+    font-family: ptsans-bold;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #000;
+}
+.sub_title p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+}
+/* title  */
+/* common end */
+/* header start  */
+.logo a p{
+    font-family: ptsans-bold;
+    font-size: 25px;
+    color: #fff;
+    margin: 0;
+}
+header{
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: #FF8000;
+    padding: 20px 0;
+}
+.menu ul li a{
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important;
+    padding: 0 50px !important;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    color: white !important;
+}
+/* header end */
+/* hero section start  */
+.hero{
+    min-height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero_img_wrap{
+    display: flex;
+    float: right;
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    margin: 100px 0px 120px 90px;
+    border-radius: 20px;
+    background-color: rgba(255, 144, 255, 0.1);
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+}
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.hero_wrap_2{
+    position: absolute;
+    min-height: 460px;
+    top: 130px;
+    right: 95px;
+}
+.hero_img{
+    padding: 20px;
+}
+.hero_img img{
+    border-radius: 10px;
+}
+.hero_right{
+    padding: 130px 0 120px 0;
+}
+.hero_right h1{
+    font-family: ptsans-bold;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 95px;
+    margin: 0;
+    color: #FF8000;
+}
+.hero_right h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 80px;
+    margin: 0;
+    color: #ffffff;
+}
+.hero_right p{
+    margin: 0;
+    line-height: 26px;
+}
+.common_btn{
+    padding-top: 50px;
+    margin: 0;
+}
+.c_btn a{
+    font-size: 20px;
+    width: 200px;
+    padding: 10px 25px;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: .33s;
+}
+.c_btn a:hover{
+    color: #000;
+    background-color: #fff;
+}
+/* hero section end */
+/* About us section start */
+.about_img_wrap{
+    width: 200px;
+    margin: 100px 0px 120px 90px;
+    border-radius: 20px;
+}
+.about_text h2{
+    color: #000;
+}
+.about_text h2 span{
+    color: #FF8000;
+}
+.address{
+    padding: 30px 0 0;
+}
+.address ul{
+    display: flex;
+    padding: 0;
+}
+.address li{
+    list-style-type: none;
+}
+.address .li_left{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 0;
+    color: #000;
+}
+.address .li_right{
+    font-size: 18px;
+}
+/* About us section end */
+/* Education section strat  */
+.education-section {
+    background-color: #f8f9fa;
+}
+.education-section h2 {
+    font-weight: 700;
+    color: #000;
+}
+.card {
+    border: none;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    color: #FF8000;
+}
+.card-subtitle {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+/* Education section end */
+/* skill section start  */
+/* styles.css */
+.skills-section {
+    background-color: #000;
+}
+.blur_bg{
+    background-color: rgba(255, 144, 255, 0.2);
+    background-size: cover;
+    background-position: center;
+}
+.skills-section h2 {
+    font-size: 2.5rem;
+    color: #343a40;
+}
+.circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.circle svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+circle {
+    fill: none;
+    stroke-width: 12;
+}
+circle:first-child {
+    stroke: #e9ecef;
+}
+circle:last-child {
+    stroke: #FF8000;
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * var(--progress)) / 100);
+    transition: stroke-dashoffset 1s ease-in-out;
+}
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+/* skill section end */
+/* contact section new start  */
+.contact-section {
+    background-color: #f8f9fa;
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bg-primary {
+    background-color: #FF8000 !important;
+}
+.contact-section .bi {
+    transition: transform 0.2s ease-in-out;
+}
+.contact-section .bi:hover {
+    transform: scale(1.2);
+}
+form .btn {
+    font-weight: 600;
+    border: 1px solid #000;
+    border-radius: 50px;
+    color: #000;
+}
+form .btn:hover {
+    color: #fff;
+    background-color: #FF8000;
+}
+.contact_area p strong{
+    font-size: 20px;
+    padding-right: 15px;
+}
+/* contact section new end */
+/* footer start  */
+footer{
+    background-color: #010101;
+    /* padding-bottom: 120px; */
+}
+.footer_text{
+    text-align: center;
+}
+.footer_text h3{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 50px 0 15px;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.footer_text p{
+    margin: 0;
+    padding-bottom: 5px;
+}
+.footer_text p span{
+    padding-right: 5px;
+}
+.devider{
+    width: 100%;
+    height: 0.5px;
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+.copy p{
+    font-size: 14px;
+    margin: 0;
+    padding: 20px 0;
+    color: #ffffff;
+}
+.copy p a{
+    text-decoration: none;
+}
+/* footer end */
